@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#020617;
+}
+
+.clock{
+  background:#111827;
+  padding:40px 60px;
+  border-radius:20px;
+  box-shadow:0 0 20px rgba(0,0,0,0.5);
+  text-align:center;
+}
+
+h1{
+  color:white;
+  margin-bottom:20px;
+  font-size:30px;
+}
+
+#time{
+  color:#00f7ff;
+  font-size:60px;
+  font-weight:bold;
+  letter-spacing:3px;
+}
+
+#date{
+  color:#94a3b8;
+  margin-top:15px;
+  font-size:20px;
+}
